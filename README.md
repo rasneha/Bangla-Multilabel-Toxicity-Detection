@@ -26,8 +26,8 @@ Everything lives in one notebook: [`bengali_toxicity_multilabel.ipynb`](bengali_
 | BanglaBERT (BanglaCAT-adapted encoder) | 0.5488 | 0.6485 |
 | **Ensemble (0.45 BanglaBERT + 0.55 TF-IDF)** | **0.5722** | 0.6539 |
 
-![Training curves](figures/training_curves.png)
-![Per-label F1](figures/per_label_f1.png)
+![Training curves](Figures/training_curves.png)
+![Per-label F1](Figures/per_label_f1.png)
 
 Caveats: the blend weight and thresholds were tuned on the same 500 validation examples, so these
 scores are optimistic; rare labels have only 15–24 validation positives; and the notebook has no
